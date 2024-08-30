@@ -8,7 +8,7 @@ javaPlatform {
 }
 
 group = "com.github.muguliebe"
-version = "0.5.3"
+version = "0.5.5"
 
 repositories {
     mavenCentral()
