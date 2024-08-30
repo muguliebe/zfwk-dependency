@@ -15,9 +15,7 @@ val zutilsVersion = "0.1.0"
 
 repositories {
     mavenCentral()
-    maven {
-        url = uri("https://nexus.egstep.com/repository/maven-public/")
-    }
+    maven("https://jitpack.io")
 }
 
 dependencies {
