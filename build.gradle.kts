@@ -29,7 +29,7 @@ dependencies {
     //Maven BOM <dependencies> block
     api("com.egstep:zutils-kt:${zutilsVersion}")
     api("com.egstep:zfwk-core:${zfwkVersion}")
-    api("ch.qos.logback:logback-classic:1.4.11")
+    api("ch.qos.logback:logback-classic:1.4.12")
     api("org.slf4j:slf4j-api:2.0.9")
     api("org.apache.commons:commons-lang3:3.13.0")
     api("com.fasterxml.jackson.module:jackson-module-kotlin:2.15.3")
