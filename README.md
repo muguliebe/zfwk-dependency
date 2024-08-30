@@ -12,5 +12,5 @@ repositories {
 }
 
 dependencies {
-    compileOnly(platform("com.github.muguliebe:zfwk-dependency:$zfwkBomVersion"))
+    compileOnly(platform("com.github.muguliebe:zfwk-dependency:$version"))
 }
