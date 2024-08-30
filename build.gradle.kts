@@ -8,8 +8,8 @@ javaPlatform {
     allowDependencies()
 }
 
-group = "com.github.muguliebe.zfwk"
-version = "0.4.1"
+group = "com.github.muguliebe"
+version = "0.4.2"
 
 repositories {
     mavenCentral()
@@ -20,7 +20,7 @@ dependencies {
     val jacksonModuleVersion: String by project
 
     constraints {
-        api("com.github.muguliebe:zfwk-utils:0.2.0")
+        api("com.github.muguliebe:zfwk-utils:0.3.0")
         api("com.github.muguliebe:zfwk-core:0.2.0")
         api("ch.qos.logback:logback-classic:1.4.12")
         api("org.slf4j:slf4j-api:2.0.9")
