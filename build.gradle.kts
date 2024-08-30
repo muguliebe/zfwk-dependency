@@ -9,7 +9,7 @@ javaPlatform {
 }
 
 group = "com.github.muguliebe.zfwk"
-version = "0.4.0"
+version = "0.4.1"
 
 repositories {
     mavenCentral()
@@ -17,20 +17,16 @@ repositories {
 }
 
 dependencies {
-    //Properties from project gradle.properties to variable mapping
     val jacksonModuleVersion: String by project
 
-    //Maven BOM <dependencyManagement> block
     constraints {
+        api("com.github.muguliebe:zfwk-utils:0.2.0")
+        api("com.github.muguliebe:zfwk-core:0.2.0")
+        api("ch.qos.logback:logback-classic:1.4.12")
+        api("org.slf4j:slf4j-api:2.0.9")
+        api("org.apache.commons:commons-lang3:3.13.0")
+        api("com.fasterxml.jackson.module:jackson-module-kotlin:2.15.3")
     }
-
-    //Maven BOM <dependencies> block
-    api("com.github.muguliebe:zfwk-utils:0.2.0")
-    api("com.github.muguliebe:zfwk-core:0.2.0")
-    api("ch.qos.logback:logback-classic:1.4.12")
-    api("org.slf4j:slf4j-api:2.0.9")
-    api("org.apache.commons:commons-lang3:3.13.0")
-    api("com.fasterxml.jackson.module:jackson-module-kotlin:2.15.3")
 
 }
 
