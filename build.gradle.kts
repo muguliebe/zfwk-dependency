@@ -9,7 +9,7 @@ javaPlatform {
 }
 
 group = "com.github.muguliebe"
-version = "0.5.1"
+version = "0.5.2-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -33,10 +33,10 @@ dependencies {
 publishing {
     publications {
         create<MavenPublication>("zfwk-dependency") {
-            from(components["java"])
-            groupId = group.toString()
-            artifactId = project.name
-            version = version
+            from(components["javaPlatform"])
+            groupId = project.group.toString()
+            artifactId = rootProject.name
+            version = project.version.toString()
         }
     }
     repositories {
