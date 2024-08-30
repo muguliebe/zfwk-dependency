@@ -1,0 +1,15 @@
+{
+  "name": "zfwk-bom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "clean": "./gradlew clean",
+    "refresh": "./gradlew --refresh-dependencies",
+    "build": "./gradlew build",
+    "publish": "./gradlew clean && ./gradlew build && ./gradlew publish"
+
+  },
+  "author": "",
+  "license": "ISC"
+}
