@@ -8,7 +8,7 @@ javaPlatform {
 }
 
 group = "com.github.muguliebe"
-version = "0.5.5"
+version = "0.5.6"
 
 repositories {
     mavenCentral()
@@ -20,7 +20,7 @@ dependencies {
 
     constraints {
         api("com.github.muguliebe:zfwk-utils:0.3.0")
-        api("com.github.muguliebe:zfwk-core:0.2.0")
+        api("com.github.muguliebe:zfwk-core:0.3.2")
         api("ch.qos.logback:logback-classic:1.4.12")
         api("org.slf4j:slf4j-api:2.0.9")
         api("org.apache.commons:commons-lang3:3.13.0")
