@@ -1,7 +1,6 @@
 plugins {
     `java-platform`
     `maven-publish`
-    id("io.spring.dependency-management")
 }
 
 javaPlatform {
@@ -9,7 +8,7 @@ javaPlatform {
 }
 
 group = "com.github.muguliebe"
-version = "0.5.2-SNAPSHOT"
+version = "0.5.3"
 
 repositories {
     mavenCentral()
